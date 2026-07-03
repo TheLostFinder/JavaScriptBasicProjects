@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="todo-app">
+        <header>
+            <h1>Happy Tasks</h1>
+            <p class="subtitle">Oceans are just the drops accumulated with time</p>
+        </header>
+
+        <section class="add-task">
+            <input type="text" id="task-input" placeholder="What do you want to do today?">
+            <button onclick="addTask()">Add Task</button>
+        </section>
+
+        <section class="task-list">
+            <article class="task completed">
+                <input type="checkbox" checked>
+                <span>Drink water</span>
+                <button class="delete-btn" onclick="deleteTask(this)">Delete</button>
+            </article>
+
+        
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
