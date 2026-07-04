@@ -12,7 +12,7 @@ body {
     align-items: center;
     padding: 20px;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #fff1f2, #e0f2fe, #f3e8ff);
+    background: linear-gradient(135deg, #c86eff, #ff8f8f, #f07bff);
 }
 
 .todo-app {
